@@ -1,13 +1,8 @@
-*{
+.abt{
     overflow-x: hidden;
-}
-#ham-menu{
- float:right;
- margin-top:3rem;
- margin-right: 6rem;
- font-size: 2rem;
-}
-h1{
+} 
+
+.abthead{
     float: left;
     font-size: 45px;
     margin-top: 7rem;
@@ -15,31 +10,22 @@ h1{
     margin-bottom: 3rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-img{
+.about_us_full_image{
     height: 42rem ;
 }
-p{
+.abtpara{
     text-align: center;
     margin: 4rem;
 }
 .collage{
     display: grid;
     grid-template-columns: repeat(2,0fr);
-    margin-bottom: 8rem;
 }
 .collage img{
     width:60rem;
    
 }
-/* @media(max-width:980px){
-    
-    .collage img{
-        width:23.8rem;
-        height: 23rem;
-    }
-    
 
-} */
 @media(max-width:1150px){
     .collage img{
         width:35.3rem;
@@ -48,7 +34,7 @@ p{
     
 }
 @media(max-width:780px){
-    img{
+    .about_us_full_image{
         height:24rem;
     }
     .collage img{
@@ -69,4 +55,8 @@ p{
     .collage img{
         margin-bottom: 1.2rem;
     }
+    .about_us_full_image{
+        height:20rem;
+    }
+
 }
